@@ -1,0 +1,69 @@
+body,html{
+	height: 100%;
+	margin: 0;
+	font-size: 14px;
+	font-family: "lato", sans-serif;
+	font-weight: 400;
+	line-height: 1.8em;
+	color: #666;
+}
+.bckgrnd1, .bckgrnd2 , .bckgrnd3, .bckgrnd4{
+	position: relative;
+	opacity: 0.9;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	background-attachment: fixed;
+}
+/*fixed = parallax 
+scroll=normal*/
+
+.bckgrnd1{
+	background-image: url("nairobi.jpg");
+	min-height: 100%;
+}
+
+.bckgrnd2{
+	background-image: url("mara.jpg");
+	min-height: 400px;
+}
+.bckgrnd3{
+	background-image: url("coast.jpg");
+	min-height: 1400px;
+}
+.bckgrnd4{
+	background-image: url("mtkenya.jpg");
+	min-height: 100%;
+}
+section{
+	text-align: center;
+	padding:50px 80px;
+}
+.section-light{
+	background-color: black;
+	color: #666;
+}
+.secton-dark{
+	background-color: #282e32;
+	color: #ddd;
+
+}
+.pword{
+	position: absolute;
+	color: black;
+	top: 50%;
+	width: 100%;
+	text-align:center;
+	font-size: 30px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+.pword .borders{
+	background-color: #111;
+	color: white;
+	padding: 20px;
+}
+.pword .borders.trans{
+	background-color: transparent;
+}
